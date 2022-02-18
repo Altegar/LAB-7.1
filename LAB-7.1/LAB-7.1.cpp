@@ -1,7 +1,7 @@
 ﻿// LAB-7.1.cpp
 // Сушинський Ігор
 // Лабораторна робота №7.1.
-// Пошук заданих елементів та впорядкування рядків / стовпчиків матриці.
+// Пошук заданих елементів матриці.
 // Варіант 18
 
 #include <iostream>
@@ -32,7 +32,6 @@ int main()
 		x[i] = new int[colCount];
 
 	Random(x, rowCount, colCount, Min, Max);
-	Print(x, rowCount, colCount);
 	Print(x, rowCount, colCount);
 
 	int S = 0;
